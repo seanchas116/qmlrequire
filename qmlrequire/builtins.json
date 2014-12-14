@@ -1,0 +1,23 @@
+{
+  "__Buffer": "buffer",
+  "__process": "process/browser",
+  "assert": "assert",
+  "constants": "constants-browserify",
+  "crypto": "crypto-browserify",
+  "domain": "domain-browser",
+  "events": "events",
+  "http": "http-browserify",
+  "https": "https-browserify",
+  "os": "os-browserify/browser",
+  "path": "path-browserify",
+  "punycode": "punycode",
+  "querystring": "querystring-es3",
+  "process": "process",
+  "stream": "stream-browserify",
+  "string_decoder": "string_decoder",
+  "timers": "timers-browserify",
+  "tty": "tty-browserify",
+  "url": "url",
+  "util": "util",
+  "zlib": "browserify-zlib"
+}
