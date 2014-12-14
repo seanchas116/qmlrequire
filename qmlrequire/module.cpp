@@ -72,9 +72,9 @@ void Module::load()
         return;
     }
 
-    auto header =  "(function (module, exports, require, __filename, __dirname, process, Buffer) {";
+    auto header =  "(function (module, exports, require, __filename, __dirname, process, Buffer) {\n";
     auto content = QString::fromUtf8(file.readAll());
-    auto footer = "})";
+    auto footer = "\n})";
 
     auto scope = mEnvironment->engine()->evaluate(header + content + footer, mFileName, 0);
 
